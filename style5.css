@@ -1,0 +1,22 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer-menu{
+    margin-top: 120em;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: rgb(167, 167, 167);
+    height: 19em;
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+}
+.col-lg-2{
+    padding: 0px;
+    margin: 20px;
+    background-color: #f1f1f1;
+    height: 35em;
+   
+}
+.container-fluid-padding{
+    margin-left: 0px;
+    padding-left: 20em;
+    margin-top: 70%;
+    background-color: rgb(50, 122, 110);
+}

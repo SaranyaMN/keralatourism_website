@@ -1,0 +1,36 @@
+body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+form{
+    height: 20px;
+    width: 20%; 
+    margin-top: 10px;
+    margin-left: 3%;
+    
+}
+.form-check{
+    color: white;
+}
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+  }
+  
